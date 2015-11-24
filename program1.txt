@@ -1,0 +1,27 @@
+/
+* getchar1.c */
+#include <st
+dio.h
+>
+/* przepisz wejscie na wyjœcie, wersja 1 *
+/
+main(
+)
+{
+int c
+;
+c = getchar(); 
+/* przeczytaj znak *
+/
+while (c != EOF) 
+/* dopóki znak nie jest znakiem konca pliku (Ctrl Z) *
+/
+{
+putchar(c);
+/* wypisz przeczytany znak *
+/
+c=getchar(); 
+/* przeczytaj nastepny znak *
+/
+}
+}
