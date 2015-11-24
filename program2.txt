@@ -1,0 +1,61 @@
+------------------------------------------------------------------------------
+********************************************************
+/
+/*
+Program
+p21.c
+*
+/
+/*
+Obliczanie objetosci walca
+( wieksza dokladnosc ) *
+/
+/*
+------------------------------------------------------
+*
+/
+#include <stdio.h
+>
+#define PI
+3.141592
+6
+#define PROMIEN
+3.
+3
+#define WYSOKOSC
+44.
+4
+main(
+)
+{
+double promien, wysokosc, objetosc
+;
+promien
+= PROMIEN
+;
+wysokosc = WYSOKOSC
+;
+objetosc = PI * promien * promien * wysokosc
+;
+printf("
+\
+nObjetosc walca = %f", objetosc)
+;
+printf("
+\
+nObjetosc walca = %E", objetosc)
+;
+pri
+ntf("
+\
+nObjetosc walca = %g", objetosc)
+;
+printf("
+\
+nObjetosc walca = %15.10f", objetosc)
+;
+printf("
+\
+nObjetosc walca = %25.20f", objetosc)
+;
+}
