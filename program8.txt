@@ -1,7 +1,7 @@
 // Funkcja drukuj¹ca pierwsze znaki wczytanego ³añcucha
 #include <stdio.h>
 #include <conio.h>
-#include <string.h>
+#include <string.h> zmiana dla branch
 void druk(char [],int );
 char slowo[10];
 int m;
