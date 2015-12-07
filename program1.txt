@@ -1,5 +1,5 @@
 /
-* getchar1.c */
+* getchar1.c */ // abcdefg
 #include <st
 dio.h
 >
