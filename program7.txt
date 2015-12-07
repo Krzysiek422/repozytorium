@@ -1,6 +1,6 @@
 // Kopiowanie ³añcuchów
 #include <stdio.h>
-#include <conio.h>
+#include <conio.h> zmiana dla branch
 #include <string.h>
 main()
 {
