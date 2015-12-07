@@ -1,5 +1,5 @@
 /
-* getchar1.c */ // abcdefg eafaeaefaf ae
+* getchar1.c */ // zmiana master
 #include <st
 dio.h
 >
