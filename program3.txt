@@ -1,6 +1,6 @@
 
-#include <stdio.h> zmiana dla branch
-#include <conio.h>
+#include <stdio.h> zmiana dla master
+#include <conio.h> 
 main()
 {
         int A[10],i,n;
