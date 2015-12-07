@@ -1,0 +1,24 @@
+// Funkcja drukuj¹ca pierwsze znaki wczytanego ³añcucha
+#include <stdio.h>
+#include <conio.h>
+#include <string.h>
+void druk(char [],int );
+char slowo[10];
+int m;
+main()
+{
+        printf("\n Podaj slowo: ");
+        scanf("%s",slowo);
+        printf("\n Podaj ilosc pierwszych liter slowa %s do wydrukowania: ",slowo);
+        scanf("%d",&m);
+        printf("\n Pierwsze %d litery slowa %s to: ",m,slowo);
+        druk(slowo,m);
+        getch();
+        return 0;
+}
+void druk(char lancuch[],int n)
+{
+        int i;
+        for(i=0;i<n;i++)
+                printf("%c",lancuch[i]);
+}
