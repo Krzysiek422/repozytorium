@@ -1,6 +1,6 @@
 /
 * getchar1.c */ // zmiana master
-#include <st
+#include <st zmiana master
 dio.h
 >
 /* przepisz wejscie na wyjœcie, wersja 1 *
