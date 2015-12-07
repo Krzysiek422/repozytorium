@@ -1,5 +1,5 @@
 // Struktura instytuty
-#include <stdio.h>
+#include <stdio.h> zmiana dla branch
 #include <conio.h>
 #include <string.h>
 main()
